@@ -1,0 +1,24 @@
+DROP INDEX IF EXISTS idx_metrics_account_id;
+DROP INDEX IF EXISTS idx_facebook_insights_account_id;
+DROP INDEX IF EXISTS idx_imported_posts_provider_post_id;
+DROP INDEX IF EXISTS idx_imported_posts_account_id;
+DROP INDEX IF EXISTS idx_audience_account_date;
+DROP INDEX IF EXISTS idx_post_versions_post_id;
+DROP INDEX IF EXISTS idx_post_accounts_errors;
+DROP INDEX IF EXISTS idx_posts_schedule_scan;
+
+DROP TABLE IF EXISTS audience;
+DROP TABLE IF EXISTS metrics;
+DROP TABLE IF EXISTS facebook_insights;
+DROP TABLE IF EXISTS imported_posts;
+DROP TABLE IF EXISTS settings;
+DROP TABLE IF EXISTS media;
+DROP TABLE IF EXISTS tag_posts;
+DROP TABLE IF EXISTS tags;
+DROP TABLE IF EXISTS post_versions;
+DROP TABLE IF EXISTS post_accounts;
+DROP TABLE IF EXISTS posts;
+DROP TABLE IF EXISTS accounts;
+DROP TABLE IF EXISTS services;
+DROP TABLE IF EXISTS api_tokens;
+DROP TABLE IF EXISTS users;
